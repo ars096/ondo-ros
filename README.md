@@ -25,9 +25,9 @@ launch ファイルを編集します。
     nano ~/catkin_ws/src/ondo/launch/example.launch
 
 - parameters
-  - host :   おんどとりの ip アドレス
-  - serial_number :  おんどとりのシリアル番号
-  - rate :   更新頻度 (default 1 sec)
+  - host :   おんどとりの ip アドレス 
+  - serial_number :  おんどとりのシリアル番号 
+  - rate :   更新頻度 (default 1 sec) 
 
 
 起動します

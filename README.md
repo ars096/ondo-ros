@@ -1,8 +1,18 @@
 # ondo-ros
 
-## usage
+おんどとり TR-7nw のデータを取得し publish するノードです。
 
-download and make
+
+## 準備
+
+ondopy をインストールします。
+
+    pip install ondopy
+
+
+## インストール
+
+ダウンロードして make します。
 
     git clone https://github.com/ars096/ondo-ros.git ~/catkin_ws/src/ondo
     
@@ -10,16 +20,17 @@ download and make
     catkin_make
 
 
-configure launch file
+launch ファイルを編集します。
 
     nano ~/catkin_ws/src/ondo/launch/example.launch
 
 - parameters
-  - host
-  - serial_number
-  - rate
+  - host :   おんどとりの ip アドレス
+  - serial_number :  おんどとりのシリアル番号
+  - rate :   更新頻度 (default 1 sec)
 
-launch
+
+起動します
 
     loslaunch ondo example.launch
 
